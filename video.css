@@ -1,0 +1,240 @@
+#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff;}
+#sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none;}
+#sb-overlay{position:relative;height:100%;width:100%;}
+#sb-wrapper{position:absolute;visibility:hidden;width:100px;}
+#sb-wrapper-inner{position:relative;border:1px solid #303030;overflow:hidden;height:100px;}
+#sb-body{position:relative;height:100%;}
+#sb-body-inner{position:absolute;height:100%;width:100%;}
+#sb-player.html{height:100%;overflow:auto;}
+#sb-body img{border:none;}
+#sb-loading{position:relative;height:100%;}
+#sb-loading-inner{position:absolute;font-size:14px;line-height:24px;height:24px;top:50%;margin-top:-12px;width:100%;text-align:center;}
+#sb-loading-inner span{background:url(loading.gif) no-repeat;padding-left:34px;display:inline-block;}
+#sb-body,#sb-loading{background-color:#060606;}
+#sb-title,#sb-info{position:relative;margin:0;padding:0;overflow:hidden;}
+#sb-title,#sb-title-inner{height:26px;line-height:26px;}
+#sb-title-inner{font-size:16px;}
+#sb-info,#sb-info-inner{height:20px;line-height:20px;}
+#sb-info-inner{font-size:12px;}
+#sb-nav{float:right;height:16px;padding:2px 0;width:45%;}
+#sb-nav a{display:block;float:right;height:16px;width:16px;margin-left:3px;cursor:pointer;background-repeat:no-repeat;}
+#sb-nav-close{background-image:url(close.png);}
+#sb-nav-next{background-image:url(next.png);}
+#sb-nav-previous{background-image:url(previous.png);}
+#sb-nav-play{background-image:url(play.png);}
+#sb-nav-pause{background-image:url(pause.png);}
+#sb-counter{float:left;width:45%;}
+#sb-counter a{padding:0 4px 0 0;text-decoration:none;cursor:pointer;color:#fff;}
+#sb-counter a.sb-counter-current{text-decoration:underline;}
+div.sb-message{font-size:12px;padding:10px;text-align:center;}
+div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
+
+table.tablebonita {
+       width: 1000px;
+       border:1px solid #000000;
+       border-spacing: 0px;
+	   overflow-Y: scroll; }
+ 
+table.tablebonita a, .table, .table tbody, .table tfoot, .table tr, .table th, .table td {
+       font-family: Arial, Helvetica, sans-serif;
+}
+ 
+table.tablebonita caption {
+       font-size: 1.8em;
+       text-align: left;
+       text-indent: 100px;
+       background: url(rojo.jpg) left top;
+       height: 40px;
+       color: #008B8B;
+       border:1px solid #000000; }
+ 
+table.tablebonita thead th {
+       background: url(rojo.jpg) left;
+       height: 21px;
+       color: #FFFFFF;
+       font-size:12px
+       font-family: Arial;
+       font-weight: bold;
+       padding: 0px 7px;
+       margin: 20px 0px 0px;
+       text-align: left; }
+ 
+table.tablebonita tbody tr {        background: #ffffff; }
+
+ 
+table.tablebonita tbody tr.odd {        background: #008B8B; }
+ 
+table.tablebonita tbody th {
+       background: #008B8B; /*url(rojo.jpg) left center no-repeat;*/
+       background-position: 5px;
+       padding-left: 40px !important; }
+ 
+table.tablebonita tbody tr.odd th {
+       background: #008B8B; /*url(rojo.jpg) left center no-repeat;*/
+       background-position: 5px;
+       padding-left: 40px !important; }
+ 
+tbody th, .table tbody td {
+       font-size: 10px;
+       line-height: 1.4em;
+       font-family: Arial, Helvetica, sans-serif;
+       color: #000000;
+       padding: 10px 7px;
+       border-bottom: 1px solid #800000;
+       text-align: left; }
+ 
+table.tablebonita tbody a {
+       color: #000000;
+       font-weight: bold;
+       text-decoration: none; }
+ 
+table.tablebonita tbody a:hover {
+       color: #7FFFD4;
+       text-decoration: underline; }
+ 
+table.tablebonita tbody tr:hover th {
+       background: #7FFFD4 url(images/arrow_red.gif) left center no-repeat;
+       background-position: 5px;
+       color: #7FFFD4; }
+ 
+table.tablebonita tbody tr.odd:hover th {
+       background: #7FFFD4 url(images/arrow_black.gif) left center no-repeat;
+       background-position: 5px;
+       color: #7FFFD4; }
+ 
+table.tablebonita tbody tr:hover th a, .table tr.odd:hover th a        {
+                color: #7FFFD4; }
+ 
+table.tablebonita tbody tr:hover td, .table tr:hover td a, .table tr.odd:hover td, .table tr.odd:hover td a {
+       background: #008B8B;
+       color: #ffffff;         }
+ 
+table.tablebonita tbody tr.odd:hover td, .table tr.odd:hover td a{
+       background: #000000;
+       color: #ffffff;         }
+ 
+table.tablebonita tfoot th, .table tfoot td {
+       background: #ffffff url(images/bg_footer.gif) repeat-x bottom;
+       font-size: 10px;
+       color: #ffffff;
+       height: 21px;
+       }
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+  table.tablavertical {
+       width: 220px;
+       border:1px solid #000000;
+       border-spacing: 0px; }
+ 
+table.tablavertical a, .table, .table tbody, .table tfoot, .table tr, .table th, .table td {
+       font-family: Arial, Helvetica, sans-serif;
+}
+ 
+table.tablavertical caption {
+       font-size: 1.8em;
+       text-align: left;
+       text-indent: 100px;
+       background: url(rojo.jpg) left top;
+       height: 40px;
+       color: #F5F5DC;
+       border:1px solid #000000; }
+ 
+table.tablavertical thead th {
+       background: url(rojo.jpg) left;
+       height: 21px;
+       color: #FFFFFF;
+       font-size:12px
+       font-family: Arial;
+       font-weight: bold;
+       padding: 0px 7px;
+       margin: 20px 0px 0px;
+       text-align: left; }
+ 
+table.tablavertical tbody tr {        background: #ffffff; }
+
+ 
+table.tablavertical tbody tr.odd {        background: #f0f0f0; }
+ 
+table.tablavertical tbody th {
+       background: url(rojo.jpg) left center no-repeat;
+       background-position: 5px;
+       padding-left: 40px !important; }
+ 
+table.tablavertical tbody tr.odd th {
+       background: url(rojo.jpg) left center no-repeat;
+       background-position: 5px;
+       padding-left: 40px !important; }
+ 
+tbody th, .table tbody td {
+       font-size: 12px;
+       line-height: 1.4em;
+       font-family: Arial, Helvetica, sans-serif;
+       color: #000000;
+       padding: 10px 7px;
+       border-bottom: 1px solid #800000;
+       text-align: left; }
+ 
+table.tablavertical tbody a {
+       color: #000000;
+       font-weight: bold;
+       text-decoration: none; }
+ 
+table.tablavertical tbody a:hover {
+       color: #000000;
+       text-decoration: underline; }
+ 
+table.tablavertical tbody tr:hover th {
+       background: #7FFFD4 url(rojo.jpg) left center no-repeat;
+       background-position: 5px;
+       color: #000000; }
+ 
+table.tablavertical tbody tr.odd:hover th {
+       background: #7FFFD4 url(rojo.jpg) left center no-repeat;
+       background-position: 5px;
+       color: #000000; }
+ 
+table.tablavertical tbody tr:hover th a, .table tr.odd:hover th a        {
+                color: #7FFFD4; }
+ 
+table.tablavertical tbody tr:hover td, .table tr:hover td a, .table tr.odd:hover td, .table tr.odd:hover td a {
+       background: #008B8B;
+       color: #ffffff;         }
+ 
+table.tablavertical tbody tr.odd:hover td, .table tr.odd:hover td a{
+       background: #000000;
+       color: #ffffff;         }
+ 
+table.tablavertical tfoot th, .table tfoot td {
+       background: #ffffff url(rojo.jpg) repeat-x bottom;
+       font-size: 12px;
+       color: #ffffff;
+       height: 21px;
+       }
+.button {
+padding: 5px 10px;
+}
+#menu1 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+	border-color:#000000;
+}
+#menu1 ul li {
+    background-color: #666;
+
+}
+#menu1 ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+#menu1 ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+}
+
